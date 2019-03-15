@@ -19,7 +19,12 @@
 </head>
 
 <body>
-
+<iframe src="music/mySong.mp3" allow="autoplay" id="audio" style="display:none">
+	<audio id="player" autoplay loop>
+		<source src="music/mySong.mp3" type="audio/mp3">
+	</audio>
+	</iframe>
+	
 	<div class="container">
 		<div class="row mt-5 main">
 			<div class="col-12 text-center">
@@ -167,10 +172,7 @@
 	<script src="javascript/scrollMonitor.js"></script>
 	<script src="javascript/myscript.js"></script>
 	
-	<iframe src="music/mySong.mp3" allow="autoplay" id="audio" style="display:none"></iframe>
-	<audio id="player" autoplay loop>
-		<source src="music/mySong.mp3" type="audio/mp3">
-	</audio>
+	
 </body>
 
 </html>
